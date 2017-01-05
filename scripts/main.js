@@ -187,18 +187,17 @@ $(document).ready(function() {
     $('#link_board').on('click', function(){
         //you need to edit the web url below
         if(name==='game_board'&&clicked===true){
-            console.log('fuck')
-            window.open(' http://tw.yahoo.com ');
+            window.open('https://tsehang.github.io/WebExhibition/game.html');
         }else if(name==='app_board'&&clicked===true){
-            window.open(' http://tw.yahoo.com ');
+            window.open('https://tsehang.github.io/WebExhibition/simple-app.html');
         }else if(name==='deep_board'&&clicked===true){
-            window.open(' http://tw.yahoo.com ');
+            window.open('https://tsehang.github.io/WebExhibition/issue.html');
         }else if(name==='story_board'&&clicked===true){
-            window.open(' http://tw.yahoo.com ');
+            window.open('https://tsehang.github.io/WebExhibition/story.html');
         }else if(name==='visual_board'&&clicked===true){
-            window.open(' http://tw.yahoo.com ');
-        }else if(name==='visual_board'&&clicked===true){
-            window.open(' http://tw.yahoo.com ');
+            window.open('https://tsehang.github.io/WebExhibition/visualization.html');
+        }else if(name==='entry_board'&&clicked===true){
+            window.open('https://tsehang.github.io/WebExhibition/3dvr.html');
         }
     });
 });
